@@ -202,13 +202,8 @@
 	</entitygroup>
 
 	<entitygroup name="ZombiesCave">
-		<entity name="animalBear" prob="0.1"/>
-		<entity name="zombieSteveCrawler" prob="0.05"/>
-		<entity name="zombieJoe" prob="0.05"/>
-		<entity name="zombieSteve" prob="0.05"/>
-		<entity name="zombieMoe" prob="0.05"/>
-		<entity name="zombieYo" prob="0.05"/>
-		<entity name="zombieWightFeral" prob="0.01"/>
+		<entity name="animalBear" prob="0.4"/>
+		<entity name="zombieWightFeral" prob="0.8"/>
 	</entitygroup>
 
 	<entitygroup name="AnimalsSmall">
@@ -296,15 +291,17 @@
 	</entitygroup>
 
 	<entitygroup name="AnimalsAll" >
-		<entity name="animalRabbit" />
-		<entity name="animalChicken" />
-		<entity name="animalStag" />
-		<entity name="animalBoar" />
-		<entity name="animalSnake" />
-		<entity name="animalZombieVulture" />
-		<entity name="animalWolf" />
-		<entity name="animalDireWolf" prob="0.15" />
-		<entity name="animalBear" prob="0.15" />
+		<entity name="invisibleAnimal" prob="9" />
+		<entity name="animalRabbit" prob="0.15"/>
+		<entity name="animalChicken" prob="0.15"/>
+		<entity name="animalStag" prob="0.25"/>
+		<entity name="animalBoar" prob="0.25"/>
+		<entity name="animalSnake" prob="2"/>
+		<entity name="animalZombieVulture" prob="0.15"/>
+		<entity name="animalWolf" prob="0.15"/>
+		<entity name="animalDireWolf" prob="0.15"/>
+		<entity name="animalBear" prob="0.35" />
+		<entity name="animalZombieDog" prob="0.25"/>
 	</entitygroup>
 
 	<entitygroup name="EnemyAnimalsWasteland" >
